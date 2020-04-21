@@ -1,0 +1,52 @@
+{
+  "name": "@val-istar-guo/alfred-npm-search",
+  "version": "0.0.1",
+  "description": "Search for package on npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ca": "git add -A && git-cz -av",
+    "ci": "git-cz",
+    "release": "standard-version --no-verify",
+    "release:alpha": "standard-version --prerelease alpha",
+    "release:first": "standard-version --first-release",
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup",
+    "debug": "alfy-init",
+    "clean": "alfy-cleanup",
+    "postpublish": "git push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Val-istar-Guo/alfred-npm-search.git"
+  },
+  "author": {
+    "name": "val-istar-guo",
+    "email": "val.istar.guo@gmail.com",
+    "url": "http://blog.miaooo.me"
+  },
+  "keywords": [
+    "alfred",
+    "npm",
+    "search"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Val-istar-Guo/alfred-npm-search/issues"
+  },
+  "homepage": "https://github.com/Val-istar-Guo/alfred-npm-search#readme",
+  "dependencies": {
+    "alfy": "^0.9.1"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "commitizen": "^4.0.4",
+    "cz-conventional-changelog": "^3.1.0",
+    "husky": "^4.2.5",
+    "standard-version": "^7.1.0"
+  },
+  "engines": {
+    "node": ">=8.9.4"
+  }
+}

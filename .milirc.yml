@@ -1,0 +1,5 @@
+mili:
+  version: 3.8.2
+template:
+  repository: 'npm:@mtpl/alfred'
+  version: 0.0.1
