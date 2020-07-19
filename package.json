@@ -39,12 +39,12 @@
     "alfy": "^0.9.1"
   },
   "devDependencies": {
-    "@commitlint/cli": "^8.3.5",
-    "@commitlint/config-conventional": "^8.3.4",
-    "commitizen": "^4.0.4",
-    "cz-conventional-changelog": "^3.1.0",
+    "@commitlint/cli": "^9.1.1",
+    "@commitlint/config-conventional": "^9.1.1",
+    "commitizen": "^4.1.2",
+    "cz-conventional-changelog": "^3.2.0",
     "husky": "^4.2.5",
-    "standard-version": "^7.1.0"
+    "standard-version": "^8.0.2"
   },
   "engines": {
     "node": ">=8.9.4"

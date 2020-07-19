@@ -11,6 +11,12 @@
 Search for package on npm.
 <!-- description -->
 
+## Install
+
+```bash
+npm install -g @val-istar-guo/alfred-npm-search
+```
+
 ## Usage
 
 <!-- usage -->
